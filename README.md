@@ -36,13 +36,7 @@ Your notes are stored safely in the cloud and synced instantly across sessions, 
 
 ---
 
-## 📸 Screenshots
 
-![FireNotes App](https://github.com/pratham162u/FireNotes/blob/main/Firenotes.png)
-
-*(More screenshots can be added later in an images folder)*
-
----
 
 ## 🚀 Getting Started
 
@@ -93,27 +87,27 @@ cd FireNotes
 ## 📁 Project Structure
 
 ```
-FireNotes/                          📦 Root Project
-├── app/                            📱 Android App Module
-│   ├── src/main/java/com/example/firenotes/   ☕ Java Source Code
-│   │   ├── SplashActivity.java      🚀 App Splash Screen
-│   │   ├── CreateAccountActivity.java 👤 User Registration
-│   │   ├── LoginActivity.java       🔑 User Login
-│   │   ├── ForgotPasswordActivity.java 🔄 Password Recovery
-│   │   ├── MainActivity.java        🏠 Home / Notes List
-│   │   ├── NoteDetails.java         ✏️ Create & Edit Notes
-│   │   ├── Note.java                📝 Note Model Class
-│   │   ├── NoteAdapter.java         🔗 RecyclerView Adapter
-│   │   └── Utility.java             🛠️ Firebase Utilities
-│   └── res/                         🎨 App Resources
-│       ├── layout/                  📐 XML Layout Files
-│       ├── drawable/                🖼️ Images & Icons
-│       ├── values/                  🎨 Colors, Styles, Themes
-│       └── xml/                     ⚙️ Config XML Files
-├── Firenotes.png                    🖼️ App Logo / README Image
-├── README.md                        📖 Project Documentation
-├── build.gradle                     🏗️ Project Build Script
-└── settings.gradle                  ⚙️ Gradle Settings
+FireNotes/                                        📦 Root Project
+├── app/                                          📱 Android App Module
+│   ├── src/main/java/com/example/firenotes/      ☕ Java Source Code
+│   │   ├── SplashActivity.java                   🚀 App Splash Screen
+│   │   ├── CreateAccountActivity.java            👤 User Registration
+│   │   ├── LoginActivity.java                    🔑 User Login
+│   │   ├── ForgotPasswordActivity.java           🔄 Password Recovery
+│   │   ├── MainActivity.java                     🏠 Home / Notes List
+│   │   ├── NoteDetails.java                      ✏️ Create & Edit Notes
+│   │   ├── Note.java                             📝 Note Model Class
+│   │   ├── NoteAdapter.java                      🔗 RecyclerView Adapter
+│   │   └── Utility.java                          🛠️ Firebase Utilities
+│   └── res/                                      🎨 App Resources
+│       ├── layout/                               📐 XML Layout Files
+│       ├── drawable/                             🖼️ Images & Icons
+│       ├── values/                               🎨 Colors, Styles, Themes
+│       └── xml/                                  ⚙️ Config XML Files
+├── Firenotes.png                                 🖼️ App Logo / README Image
+├── README.md                                     📖 Project Documentation
+├── build.gradle                                  🏗️ Project Build Script
+└── settings.gradle                               ⚙️ Gradle Settings
 ```
 
 ---
@@ -128,6 +122,14 @@ FireNotes/                          📦 Root Project
 5. **Auto Save** – Notes save automatically  
 6. **Delete Note** – Long press to delete with confirmation  
 7. **Logout** – Sign out securely
+
+---
+##✍️ **Note Management**
+- Quick Create: Instant note creation with title and content fields
+- Real-time Edit: Live editing with immediate cloud sync
+- Time Stamps: Automatic date and time tracking for all notes
+- Visual Feedback: Material Design animations for all interactions
+- Safe Actions: Confirmation dialogs for destructive operations
 
 ---
 
