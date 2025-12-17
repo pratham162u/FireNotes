@@ -1,4 +1,4 @@
-# 📝 FireNotes – Smart Cloud Note‑Taking App
+# 📝 FireNotes – Secure & Intelligent Cloud-Based Note App
 
 <p align="center">
   <img src="https://github.com/pratham162u/FireNotes/blob/main/Firenotes.png" alt="FireNotes Logo" width="180" />
@@ -33,6 +33,14 @@ Your notes are stored safely in the cloud and synced instantly across sessions, 
 * 📅 **Time Stamps** – Automatic date & time for every note
 * 🔒 **Privacy First** – Firebase security rules protect user data
 * 🎭 **Smooth Animations** – Lottie animations for better UX
+
+---
+
+## 📸 Screenshots
+
+![FireNotes App](https://github.com/pratham162u/FireNotes/blob/main/Firenotes.png)
+
+*(More screenshots can be added later in an images folder)*
 
 ---
 
@@ -111,7 +119,7 @@ FireNotes/                          📦 Root Project
 ---
 
 
-🎯 How to Use
+## 🎯 How to Use
 
 1. **Create Account** – Register using email and password  
 2. **Login** – Securely sign in  
@@ -123,13 +131,11 @@ FireNotes/                          📦 Root Project
 
 ---
 
-🔐 Security
+## 🔐 Security
 
 - Firebase Authentication for user identity  
 - Firestore security rules for data protection  
 - User‑specific note storage
 
 ---
-
-
 
