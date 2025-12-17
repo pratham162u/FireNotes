@@ -115,29 +115,35 @@ FireNotes/                                        📦 Root Project
 
 ## 🎯 How to Use
 
-1. **Create Account** – Register using email and password  
-2. **Login** – Securely sign in  
-3. **Add Note** – Tap ➕ to create a new note  
-4. **Edit Note** – Tap a note to modify content  
-5. **Auto Save** – Notes save automatically  
-6. **Delete Note** – Long press to delete with confirmation  
+
+1. **Create Account** – Register using email and password
+2. **Login** – Securely sign in
+3. **Add Note** – Tap ➕ to create a new note
+4. **Edit Note** – Tap a note to modify content
+5. **Auto Save** – Notes save automatically
+6. **Delete Note** – Long press to delete with confirmation
 7. **Logout** – Sign out securely
 
+
+
 ---
-✍️ **Note Management**
+
+
+## ✍️ Note Management
 - Quick Create: Instant note creation with title and content fields
 - Real-time Edit: Live editing with immediate cloud sync
 - Time Stamps: Automatic date and time tracking for all notes
 - Visual Feedback: Material Design animations for all interactions
 - Safe Actions: Confirmation dialogs for destructive operations
 
+
 ---
+
 
 ## 🔐 Security
 
-- Firebase Authentication for user identity  
-- Firestore security rules for data protection  
-- User‑specific note storage
 
----
+- Firebase Authentication for user identity
+- Firestore security rules for data protection
+- User‑specific note storage
 
