@@ -36,14 +36,6 @@ Your notes are stored safely in the cloud and synced instantly across sessions, 
 
 ---
 
-## 📸 Screenshots
-
-![FireNotes App](https://github.com/pratham162u/FireNotes/blob/main/Firenotes.png)
-
-*(More screenshots can be added later in an images folder)*
-
----
-
 ## 🚀 Getting Started
 
 ### 📋 Prerequisites
@@ -161,14 +153,6 @@ FireNotes/
 - Firebase Authentication for user identity  
 - Firestore security rules for data protection  
 - User‑specific note storage
-
----
-
-## 👨‍💻 Developer
-
-**Pratham Gohil**  
-BE – Information Technology  
-Android & Firebase Developer
 
 ---
 
