@@ -67,12 +67,19 @@ cd FireNotes
 
 ### 3️⃣ Firebase Configuration
 
-* Go to **Firebase Console**
-* Create a new Firebase project
-* Add an Android app
-* Download `google-services.json`
-* Place it inside the `app/` directory
-* Enable:
+Go to Firebase Console
+
+Create a new Firebase project
+
+Add an Android app
+
+Download google-services.json
+
+Place it inside the app/ directory
+
+Enable Authentication (Email/Password)
+
+Enable Cloud Firestore
 
   * **Authentication (Email/Password)**
   * **Cloud Firestore**
