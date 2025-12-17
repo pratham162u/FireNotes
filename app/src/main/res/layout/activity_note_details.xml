@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="25dp"
+    android:paddingTop="25dp"
+    tools:context=".NoteDetails">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/title_bar_layout">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:background="@color/white"
+            android:src="@drawable/back_btn"
+            android:hapticFeedbackEnabled="true"
+            app:tint="@color/my_primary" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:paddingRight="40dp"
+            android:id="@+id/delete_btn"
+            android:src="@drawable/delete_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            app:tint="@color/my_primary"
+            android:allowClickWhenDisabled="false"
+            android:hapticFeedbackEnabled="true"
+            android:background="@color/white" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:id="@+id/save_note_btn"
+            android:src="@drawable/save_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            app:tint="@color/my_primary"
+            android:allowClickWhenDisabled="false"
+            android:hapticFeedbackEnabled="true"
+            android:background="@color/white" />
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar_layout"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/notes_title_text"
+            android:hint="Title"
+            android:textSize="22sp"
+            android:fontFamily="@font/nunitosemi"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@null"
+            android:maxLength="50"
+            android:background="@null"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_time_text"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/nunito"
+            android:textSize="10sp"
+            android:textColor="@color/grey"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/notes_content_text"
+            android:hint="Your notes goes here ..."
+            android:textSize="14dp"
+            android:gravity="top"
+            android:fontFamily="@font/nunito"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@null"
+            android:minLines="35"
+            android:paddingBottom="20dp"
+            android:background="@null"/>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
