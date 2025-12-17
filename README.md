@@ -110,33 +110,8 @@ FireNotes/                          📦 Root Project
 
 ---
 
-FireNotes/
-├── app/
-│   ├── src/main/java/com/example/firenotes/
-│   │   ├── SplashActivity.java
-│   │   ├── CreateAccountActivity.java
-│   │   ├── LoginActivity.java
-│   │   ├── ForgotPasswordActivity.java
-│   │   ├── MainActivity.java
-│   │   ├── NoteDetails.java
-│   │   ├── Note.java
-│   │   ├── NoteAdapter.java
-│   │   └── Utility.java
-│   └── res/
-│       ├── layout/
-│       ├── drawable/
-│       ├── values/
-│       └── xml/
-├── Firenotes.png
-├── README.md
-├── build.gradle
-└── settings.gradle
 
-```
-
----
-
-## 🎯 How to Use
+🎯 How to Use
 
 1. **Create Account** – Register using email and password  
 2. **Login** – Securely sign in  
@@ -148,7 +123,7 @@ FireNotes/
 
 ---
 
-## 🔐 Security
+🔐 Security
 
 - Firebase Authentication for user identity  
 - Firestore security rules for data protection  
@@ -156,11 +131,5 @@ FireNotes/
 
 ---
 
-## ⭐ Support
 
-If you like this project, please **star ⭐ the repository** on GitHub.
 
-**Your thoughts, secured in the cloud ☁️**  
-**FireNotes**
-
-```
