@@ -1,6 +1,8 @@
 # 📝 FireNotes – Smart Cloud Note‑Taking App
 
-![FireNotes Logo](https://github.com/pratham162u/FireNotes/blob/main/Firenotes.png)
+<p align="center">
+  <img src="https://github.com/pratham162u/FireNotes/blob/main/Firenotes.png" alt="FireNotes Logo" width="180" />
+</p>
 
 A powerful, secure, and intuitive **Android note‑taking application** with real‑time cloud synchronization.
 Capture your thoughts, organize your ideas, and access them anytime, anywhere using **Firebase**.
@@ -178,4 +180,3 @@ If you like this project, please **star ⭐ the repository** on GitHub.
 **FireNotes**
 
 ```
-
