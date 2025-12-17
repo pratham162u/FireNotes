@@ -124,7 +124,7 @@ FireNotes/                                        📦 Root Project
 7. **Logout** – Sign out securely
 
 ---
-##✍️ **Note Management**
+✍️ **Note Management**
 - Quick Create: Instant note creation with title and content fields
 - Real-time Edit: Live editing with immediate cloud sync
 - Time Stamps: Automatic date and time tracking for all notes
